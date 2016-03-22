@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Venditore</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Giuseppe Nobile">
+        <meta name="description" content="Pagina del venditore">
+        <meta name="keywords" content="venditore, store, online, e-commerce">
+    </head>
+    <body>
+        <h1>Inserimento di un nuovo prodotto</h1>
+        
+        <form name="InserimentoProdotto" action="index_submit" method="get" accept-charset="utf-8">
+            <ul>
+            <li><label>Nome prodotto</label>
+            <input type="text" name="prodotto" placeholder="Inserire nome" required></li>
+            <li><label>URL</label>
+            <input type="text" name="URL" placeholder="inserire URL" required></li>
+                        <li><label>Prezzo</label>
+            <input type="number" name="prezzo" placeholder="inserire prezzo" required></li>
+            <li><label>Quantita' disponibile</label>
+            <input type="number" name="Quantita'" placeholder="inserire Quantita'" required></li>
+            
+            </ul>
+            <label>Descrizione</label>
+            <textarea rows="5" cols="30"></textarea>
+            <div>
+            <input type="submit" value="Inserisci">
+            </div>
+        </form>
+        <div>
+            <a href="descrizione.html">Pagina di descirizone</a>
+        </div>
+        
+        <div>
+            <a href="login.html">Pagina di login</a>
+        </div>
+        
+        
+        
+    </body>
+</html>
