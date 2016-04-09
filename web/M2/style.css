@@ -1,0 +1,187 @@
+/*Attributi body*/
+body{
+        background-color: #1A3333;
+        color: whitesmoke;
+        font-family:"arial";
+    }
+
+    
+header{
+        border: 20px;
+        margin: 0px;
+        border-color: green;
+        background-color: green;
+      }
+      
+h1{
+        border-style: double;
+        color: white;
+        font-size: 40px;
+        font-family: "arial";
+        text-align: center;
+  }
+
+h2{     
+        color: whitesmoke;
+        font-size: 35px;
+        font-family: "arial";
+       
+  }
+  
+h3{     
+        color: whitesmoke;
+        font-size: 25px;
+        font-family: "arial";
+       
+  }
+/*Link nella tabella cliente*/
+ #linktabella:link{
+           
+           color: green;
+           font-weight: bold;
+           text-align: center;
+           display: inline-block;
+      }
+
+  /*Link*/
+a:link, a:visited {
+                    background-color: green;
+                    color: white;
+                    margin: 10px 0px 10px 0px;
+                    padding: 5px 25px;
+                    text-align: center;	
+                    text-decoration: none;
+                    font-weight: bold;
+                    display: inline-table;
+                    
+                  }
+a:hover, a:active {
+    background-color: red;
+}
+
+/*Tabella cliente*/
+table{
+       width: 60%;
+       border: 1px green;
+       background-color: white; 
+       color: black;
+       text-align: center;
+       font-family: "arial", sans-serif;
+       font-weight: bold;
+     }
+table.center{
+             margin-left: auto;
+             margin-right: auto;
+            }
+th{
+    height: 20px;
+    background-color: green;
+    color: whitesmoke;
+  }
+tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                   }
+/*Form*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    resize: none;
+    
+}
+/*Bottoni*/
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 22px;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    width: 60px;
+}
+/*Form Login*/
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/*Bordi dei campi di input*/
+input[type=text]:focus{
+                       border: 3px solid green;
+                      }
+input[type=email]:focus{
+                       border: 3px solid green;
+                      }
+input[type=password]:focus{
+                       border: 3px solid green;
+                      }
+input[type=number]:focus{
+                       border: 3px solid green;
+                      }
+textarea:focus{
+    border: 3px solid green;
+}
+/*CSS Responsive*/
+*{
+   box-sizing: border-box;
+ }
+[class*="col-"] {
+    float: left;
+    padding: 2px;
+} 
+
+.col-1 {width: 33.33%;}
+.col-2 {width: 33.33%;}
+.col-3 {width: 33.33%;}
+
+ @media only screen and (min-width: 1024px){
+    .col-1 {width: 33.33%;}
+    .col-2 {width: 33.33%;}
+    .col-3 {width: 33.33%;}
+ }
+
+ @media only screen and (max-width: 480px){
+    .col-1 {width: 100%;}
+ }
+ 
+ @media only screen and (min-width: 480px)
+                    and (max-width: 1024px){
+    .col-1 {width: 50%;}
+    .col-2 {width: 50%;}
+}
